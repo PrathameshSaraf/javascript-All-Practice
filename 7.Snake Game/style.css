@@ -1,0 +1,91 @@
+.body1 {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+canvas {
+  box-shadow: black 20px 10px 50px;
+}
+.changecolname {
+  top: 120px;
+  position: fixed;
+  left:100px;
+  color: blue;
+}
+.foodchange {
+  position: fixed;
+  top: 180px;
+  left: 100px;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  box-shadow: rgb(209, 207, 207) 5px 2px 10px;
+}
+button {
+  padding: 5px;
+  margin: 5px;
+  width: 1.5pc;
+  height: 1.3pc;
+}
+.score {
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  flex-direction: row;
+  display: flex;
+  top: 100px;
+  right: 150px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: rgb(209, 207, 207) 5px 2px 10px;
+}
+.highscore {
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  flex-direction: row;
+  display: flex;
+  top: 250px;
+  right: 80px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: rgb(209, 207, 207) 5px 2px 10px;
+}
+.Startbtn {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-direction: row;
+    display: flex;
+    top: 600px;
+    right: 280px;
+    width: 8pc;
+    height: 4pc;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: rgb(209, 207, 207) 5px 2px 10px;
+}
+.Exitbtn1{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-direction: row;
+    display: flex;
+    top: 600px;
+    right: 100px;
+    width: 8pc;
+    height: 4pc;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: rgb(209, 207, 207) 5px 2px 10px;
+}
+.main{
+    margin:10px;
+    padding :10px;
+}
